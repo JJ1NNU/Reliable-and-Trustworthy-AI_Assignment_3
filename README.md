@@ -4,10 +4,10 @@
 Docker를 통해 즉시 검증을 수행할 수 있습니다.
 
 ```bash
-# 1. 이미지 빌드 (약 5~10분 소요 - Marabou 엔진 컴파일 포함)
+# 빌드
 docker build -t marabou-verify .
 
-# 2. 검증 실행
+# 검증 실행
 docker run marabou-verify
 ```
 
